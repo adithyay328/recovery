@@ -1,0 +1,6 @@
+# This contains all recipients from current keys. Look through all identity.txt files here, and look through their recipieints. Then, copy them in here.
+
+# Removing things from this is a major part of removing old keys
+
+# a1
+age1yubikey1qfnwd6ctnzru89nhp0htp7cdr986h0t23xp4qg3pamzclj80vlvdwsn89f5
