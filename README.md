@@ -12,8 +12,16 @@ For passwords, we age encrypt 1 password for each hardware key in this repo. `en
 
 In the case of needing to revoke an old key, cycle is:
 1. Log into the google, and revoke their 2fa
-2. Delete them from git
-3. Re-encrypt the new password set with the age public key from each key, but not the revoked one.
+2. Generate a new google pasword.
+3. Remove the old key from the list of recipient files, and recipients.txt
+4. Re-encrypt the new password set with the age public key from each key
+
+In the case of needing add a new key, cycle is:
+1. Log into google with an existing key
+2. Configure the new yubikey with age-plugin-yubikey as a recipient
+3. Store its identity file here, and then add it to recipients.txt.
+4. Get into google using the old key, and add the new key as an approved 2FA device
+5. Verify that both old and new work. KEEP THE PASSWORD AVAILABLE during the switchover period, just in case. Though, a nice detail with being git comitted is that you can always rollback the ciphertext and get old ones.
 
 
 # Scripts
@@ -52,3 +60,4 @@ Below is a manifest of all known keys, and which ones are lost ( NEVER re-use th
 
 ## Actives
 - a1. Currently active, on me.
+- b1. Offsite, safe.

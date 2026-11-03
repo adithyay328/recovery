@@ -1,0 +1,7 @@
+#       Serial: 39927776, Slot: 1
+#         Name: b1_hex
+#      Created: Tue, 03 Nov 2026 14:40:42 +0000
+#   PIN policy: Always (A PIN is required for every decryption, if set)
+# Touch policy: Always (A physical touch is required for every decryption)
+#    Recipient: age1yubikey1qgc2c5704ypjwvy80avf2vkg2az7jepp5gn9h7grgtthcl2pusaw7y0yle9
+AGE-PLUGIN-YUBIKEY-1UQLKZQ5Z5P6ZHQSEMC4Y5
