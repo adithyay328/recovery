@@ -60,4 +60,5 @@ Below is a manifest of all known keys, and which ones are lost ( NEVER re-use th
 
 ## Actives
 - a1. Currently active, on me.
+- a2. Also active, but a backup 
 - b1. Offsite, safe.

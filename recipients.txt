@@ -7,3 +7,6 @@ age1yubikey1qfnwd6ctnzru89nhp0htp7cdr986h0t23xp4qg3pamzclj80vlvdwsn89f5
 
 # b1
 age1yubikey1qgc2c5704ypjwvy80avf2vkg2az7jepp5gn9h7grgtthcl2pusaw7y0yle9
+
+# a2
+age1yubikey1qw9ehrsaf8pjkhxpflhkmymmaw0ad9mvs49265yywea0amekq7lhv57kzms
